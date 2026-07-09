@@ -1,0 +1,20 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Output files
+output/*.csv
+output/*.txt
+output/*.log
+output/config_backups/
+!output/.gitkeep
