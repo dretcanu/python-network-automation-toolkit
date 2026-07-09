@@ -1,0 +1,30 @@
+!
+! Configuration Backup
+! Device: ACCESS-SW-02
+! IP Address: 192.168.20.2
+! Device Type: switch
+! Role: Access Switch
+! Backup Time: 2026-07-09 16:13:14
+!
+hostname ACCESS-SW-02
+!
+enable secret class
+service password-encryption
+!
+line console 0
+ password cisco
+ login
+!
+line vty 0 15
+ password cisco
+ login
+ transport input ssh
+!
+banner motd #
+***********************************************
+*  AUTHORISED ACCESS ONLY                    *
+*  Simulated backup for portfolio project     *
+***********************************************
+#
+!
+end

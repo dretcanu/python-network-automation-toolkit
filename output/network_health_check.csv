@@ -1,0 +1,9 @@
+hostname,ip_address,device_type,location,role,status
+CORE-SW,192.168.10.1,switch,Main Office,Layer 3 Core Switch,DOWN
+EDGE-RTR,192.168.1.1,router,Main Office,Edge Router,UP
+ACCESS-SW-01,192.168.10.2,switch,Main Office,Access Switch,DOWN
+ACCESS-SW-02,192.168.20.2,switch,Main Office,Access Switch,DOWN
+ACCESS-SW-03,192.168.99.2,switch,Main Office,DMZ Access Switch,DOWN
+DC01,192.168.20.10,server,Main Office,Domain Controller,DOWN
+WEB-SRV,192.168.99.10,server,DMZ,Web Server,DOWN
+EMAIL-SRV,192.168.99.20,server,DMZ,Email Server,DOWN

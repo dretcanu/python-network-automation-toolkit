@@ -1,0 +1,27 @@
+Python Network Automation Toolkit
+Ping Sweep Scan Summary
+
+Scan Time: 2026-07-09 16:08:59
+
+Subnets Scanned:
+- 192.168.1.0/24
+
+Results:
+- Total Hosts Scanned: 254
+- Live Hosts: 8
+- Down Hosts: 246
+
+Live Host List:
+- 192.168.1.1
+- 192.168.1.100
+- 192.168.1.101
+- 192.168.1.104
+- 192.168.1.105
+- 192.168.1.106
+- 192.168.1.108
+- 192.168.1.110
+
+Output Files:
+- ping_results.csv
+- live_hosts.csv
+- scan_summary.txt

@@ -1,0 +1,30 @@
+!
+! Configuration Backup
+! Device: EDGE-RTR
+! IP Address: 192.168.1.1
+! Device Type: router
+! Role: Edge Router
+! Backup Time: 2026-07-09 16:13:14
+!
+hostname EDGE-RTR
+!
+enable secret class
+service password-encryption
+!
+line console 0
+ password cisco
+ login
+!
+line vty 0 15
+ password cisco
+ login
+ transport input ssh
+!
+banner motd #
+***********************************************
+*  AUTHORISED ACCESS ONLY                    *
+*  Simulated backup for portfolio project     *
+***********************************************
+#
+!
+end
